@@ -1,10 +1,4 @@
 def turn_count(board)
-  # counts occupied positions
-  # loop thru board and determine how many spaces have been filled with X or O
-  #  return number_of_turns
-  #  X is even
-  #  O is Odd
-
   board.each do |index|
     x_counter = 0
     o_counter = 0
@@ -14,6 +8,7 @@ def turn_count(board)
       o_counter += 1
     end
   end
+  return x_counter + o_counter
 end
 
 def current_player()

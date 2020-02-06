@@ -1,7 +1,9 @@
 def turn_count(board)
   # counts occupied positions
   # loop thru board and determine how many spaces have been filled with X or O
-
+  #  return number_of_turns
+  #  X is even
+  #  O is Odd
 end
 
 def current_player()

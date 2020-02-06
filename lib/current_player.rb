@@ -4,8 +4,10 @@ def turn_count(board)
   counter = 0
   board.each do |turn|
     if turn == "X"
+      puts "counter #{turn}"
       counter += 1
     elsif turn == "O"
+      puts "counter #{turn}"
       counter += 1
     end
   end

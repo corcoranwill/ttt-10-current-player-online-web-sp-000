@@ -2,9 +2,9 @@ def turn_count(board)
   x_counter = 0
   o_counter = 0
   board.each do |index|
-    if |index| == "X"
+    if index == "X"
       x_counter += 1
-    elsif |index == "O"
+    elsif index == "O"
       o_counter += 1
     end
   end

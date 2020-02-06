@@ -30,6 +30,10 @@ def current_player(board)
   # returns the correct player, O, for the second move
   # returns the correct player, X, for the third move
   turn_count(board)
-
+  if turn_count % 2 == 0
+    puts "player X"
+  elsif turn_count % 2 == 1
+    puts "player O"
+  end
 
 end

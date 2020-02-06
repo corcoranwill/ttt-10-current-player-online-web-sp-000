@@ -4,6 +4,16 @@ def turn_count(board)
   #  return number_of_turns
   #  X is even
   #  O is Odd
+
+  board.each do |index|
+    x_counter = 0
+    o_counter = 0
+    if |index| == "X"
+      x_counter += 1
+    elsif |index == "O"
+      o_counter += 1
+    end
+  end
 end
 
 def current_player()

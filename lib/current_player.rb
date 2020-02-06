@@ -7,13 +7,13 @@ def turn_count(board)
       counter += 1
     end
   end
+  puts counter
   return counter
 end
 
 
 def current_player(board)
   result = turn_count(board)
-  puts result
   if result % 2 == 0
     puts "X"
   elsif result % 2 == 1

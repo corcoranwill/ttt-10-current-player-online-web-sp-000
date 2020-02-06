@@ -19,5 +19,7 @@ def current_player(board)
     puts "player X"
   elsif result % 2 == 1
     puts "player O"
+  elsif nil 
+    puts "no move"
   end
 end

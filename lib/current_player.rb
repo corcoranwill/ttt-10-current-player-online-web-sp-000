@@ -16,9 +16,9 @@ end
 def current_player(board)
   result = turn_count(board)
   if result % 2 == 0
-    puts "player X"
+    puts "X"
   elsif result % 2 == 1
-    puts "player O"
+    puts "O"
   elsif nil
     puts "no move"
   end

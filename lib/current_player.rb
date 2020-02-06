@@ -1,3 +1,5 @@
+
+
 def turn_count(board)
   counter = 0
   board.each do |turn|
@@ -12,10 +14,10 @@ end
 
 
 def current_player(board)
-  turn_count(board)
-  if turn_count % 2 == 0
+  result = turn_count(board)
+  if result % 2 == 0
     puts "player X"
-  elsif turn_count % 2 == 1
+  elsif result % 2 == 1
     puts "player O"
   end
 end

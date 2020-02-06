@@ -14,9 +14,11 @@ end
 
 def current_player(board)
   result = turn_count(board)
-  if result % 2 == 0
-    return "X"
-  elsif result % 2 == 1
-    return "O"
+  result % 2 == 0 ? return "X" : return "O"
+
+  # if result % 2 == 0
+  #   return "X"
+  # elsif result % 2 == 1
+  #   return "O"
   end
 end
